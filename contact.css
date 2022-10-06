@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.Email{
+    margin: 30px;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 15px;
+    color: white;
+}
+
+.Mobile{
+    margin: 30px;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 15px;
+    color: white;
+}

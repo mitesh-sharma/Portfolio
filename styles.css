@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(129, 129, 129);
+    width: 150px;
+    font-family: 'fira sans', 'sans serif';
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0;
+
+}
+.main{
+    /* background-color: cyan; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: goldenrod; */
+    height: 70vh;
+    width: 80vw;
+    margin: 25px auto;
+}
+.pic img{
+    padding-bottom: 30px;
+    height: 130px;
+    width: 110px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.about  {
+    padding-bottom: 20px;
+    font-size: 25;
+    font-family: 'fira sans', 'sans serif';
+}
+.buttons button{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    background-image: linear-gradient(#a3a3a3 10%, #575757 40%, #313131 90%);
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: black;
+    background-image: linear-gradient( white 10%, grey 90%);
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttons a{
+    text-decoration: none;
+    color:white;
+}
+.buttons a:hover{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient( white 10%, grey 90%);
+}
+
+.sidebar a:hover{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+@media(max width: 1615px) {
+    .sidebar{
+        transform: translate(-144px, 0px);
+        position: absolute;
+    }
+}
